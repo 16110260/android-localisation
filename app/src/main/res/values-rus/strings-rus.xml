@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Постановка на учет</string>
+
+    <string name="form_text">Заполните эту форму для регистрации в качестве пользователя</string>
+    <string name="form_name">ФИО</string>
+    <string name="form_email">Адрес электронной почты</string>
+    <string name="form_phone">Номер телефона</string>
+    <string name="form_pwd">пароль</string>
+    <string name="form_check">Я прочитал и согласен с условиями</string>
+    <string name="btn_go">Отправить</string>
+    <string name="btn_lang">Выберите язык</string>
+
+</resources>

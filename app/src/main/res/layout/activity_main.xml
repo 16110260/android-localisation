@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.youepek.location.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill In The Form As User!"
+        android:paddingBottom="10dp"
+        android:hint="@string/app_title"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:hint="@string/form_name"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:hint="@string/form_email"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:hint="@string/form_phone"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:hint="@string/form_pwd"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Have Read And Agree The Terms"
+        tools:layout_editor_absoluteY="273dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:hint="@string/form_check"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:text="SUBMIT"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="338dp"
+        android:hint="@string/btn_go"/>
+
+    <Button
+        android:id="@+id/lang"
+        android:layout_width="374dp"
+        android:layout_height="41dp"
+        android:text="SET LANGUANGE"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="397dp"
+        android:hint="@string/btn_lang"/>
+
+</LinearLayout>
